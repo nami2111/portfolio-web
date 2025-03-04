@@ -3,10 +3,10 @@
   
 	const projects = [
 	  // Add your project details here
-	  { title: 'Project 1', description: 'Brief description of Project 1', link: 'https://example.com/project1', imageUrl: 'https://via.placeholder.com/300x200' },
-	  { title: 'Project 2', description: 'Brief description of Project 2', link: 'https://example.com/project2', imageUrl: 'https://via.placeholder.com/300x200' },
-	  { title: 'Project 3', description: 'Brief description of Project 3', link: 'https://example.com/project3', imageUrl: 'https://via.placeholder.com/300x200' },
-	  { title: 'Project 4', description: 'Brief description of Project 4', link: 'https://example.com/project4', imageUrl: 'https://via.placeholder.com/300x200' },
+	  { title: 'Project 1', description: 'Brief description of Project 1', link: 'https://example.com/project1', imageUrl: 'https://azsqr-kyaaa-aaaag-qkc5q-cai.raw.icp0.io/?asset=otherImages_collectionImage' },
+	  { title: 'Project 2', description: 'Brief description of Project 2', link: 'https://example.com/project2', imageUrl: 'https://g3yn2-gaaaa-aaaag-qkcla-cai.raw.icp0.io/?asset=otherImages_collectionImage' },
+	  { title: 'Project 3', description: 'Brief description of Project 3', link: 'https://example.com/project3', imageUrl: 'https://h4gro-4aaaa-aaaag-qczsq-cai.raw.icp0.io/?asset=otherImages_collectionImage' },
+	  { title: 'Project 4', description: 'Brief description of Project 4', link: 'https://example.com/project4', imageUrl: 'https://lnu2v-eyaaa-aaaag-qcy4a-cai.raw.icp0.io/?asset=otherImages_collectionImage' },
 	  { title: 'Project 5', description: 'Brief description of Project 5', link: 'https://example.com/project5', imageUrl: 'https://via.placeholder.com/300x200' },
 	  { title: 'Project 6', description: 'Brief description of Project 6', link: 'https://example.com/project6', imageUrl: 'https://via.placeholder.com/300x200' },
 	  { title: 'Project 7', description: 'Brief description of Project 7', link: 'https://example.com/project7', imageUrl: 'https://via.placeholder.com/300x200' },
