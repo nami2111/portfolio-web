@@ -33,7 +33,7 @@
   
 	<footer class="centered-footer">
 	  <p>Follow me on:</p>
-	  <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noopener noreferrer">Twitter/X</a>
+	  <a href="https://twitter.com/aimsomnia" target="_blank" rel="noopener noreferrer">Twitter/X</a>
 	</footer>
   </main>
   
