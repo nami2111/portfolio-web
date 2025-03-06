@@ -16,7 +16,9 @@ A modern, responsive portfolio website built with Svelte to showcase Web3 NFT pr
 
 portfolio-web
 ├─ public
+
 │ ├─ images
+
 │ │ └─ [project images]
 │ ├─ favicon.png
 │ ├─ global.css
