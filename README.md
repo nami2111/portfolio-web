@@ -13,6 +13,7 @@ A modern, responsive portfolio website built with Svelte to showcase Web3 NFT pr
 - Accessibility features
 
 ## Project Structure
+
 portfolio-web/
 ├── public/
 │ ├── images/
@@ -33,7 +34,6 @@ portfolio-web/
 │ └── main.js
 ├── package.json
 └── rollup.config.js
-
 
 ## Getting Started
 

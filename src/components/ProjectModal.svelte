@@ -31,7 +31,13 @@
   <svelte:window on:keydown={handleKeydown} />
   
   {#if isOpen}
-    <div class="modal-overlay" on:click={handleOutsideClick}>
+    <div 
+      class="modal-overlay" 
+      on:click={handleOutsideClick}
+      on:keydown={handleKeydown}
+      tabindex="0"
+      role="button"
+      aria-label="Close modal">
       <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
         <button class="close-button" on:click={closeModal} aria-label="Close modal">×</button>
         
