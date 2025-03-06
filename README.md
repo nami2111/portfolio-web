@@ -1,107 +1,122 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
+# AIMSOMNIA Portfolio Website
 
----
+A modern, responsive portfolio website built with Svelte to showcase Web3 NFT projects.
 
-# svelte app
+## Features
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+- Responsive design that works on all devices
+- Project filtering by year and technology
+- Search functionality
+- Project details modal
+- Contact form
+- Animated hero section
+- Accessibility features
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
-
-If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommend installing the official extension [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode). If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
-
-## Building and running in production mode
-
-To create an optimised version of the app:
-
-```bash
-npm run build
-```
-
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+## Project Structure
+portfolio-web/
+├── public/
+│ ├── images/
+│ │ └── [project images]
+│ ├── favicon.png
+│ ├── global.css
+│ └── index.html
+├── src/
+│ ├── components/
+│ │ ├── AboutSection.svelte
+│ │ ├── ContactSection.svelte
+│ │ ├── HeroSection.svelte
+│ │ ├── ProjectCard.svelte
+│ │ └── ProjectModal.svelte
+│ ├── data/
+│ │ └── projects.js
+│ ├── App.svelte
+│ └── main.js
+├── package.json
+└── rollup.config.js
 
 
-## Single-page app mode
+## Getting Started
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+### Prerequisites
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+- Node.js (v14 or later)
+- npm or yarn
 
-```js
-"start": "sirv public --single"
-```
+### Installation
 
-## Using TypeScript
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nami2111/portfolio-web.git
+   cd portfolio-web
+   ```
 
-This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-node scripts/setupTypeScript.js
-```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Or remove the script via:
+4. Open your browser and navigate to `http://localhost:5000`
 
-```bash
-rm scripts/setupTypeScript.js
-```
+## Building for Production
 
-If you want to use `baseUrl` or `path` aliases within your `tsconfig`, you need to set up `@rollup/plugin-alias` to tell Rollup to resolve the aliases. For more info, see [this StackOverflow question](https://stackoverflow.com/questions/63427935/setup-tsconfig-path-in-svelte).
-
-## Deploying to the web
-
-### With [Vercel](https://vercel.com)
-
-Install `vercel` if you haven't already:
-
-```bash
-npm install -g vercel
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-vercel deploy --name my-project
-```
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
+To create a production build:
 
 ```bash
 npm run build
-surge public my-project.surge.sh
 ```
+
+The built files will be in the `public/build` directory.
+
+## Customization
+
+### Updating Project Data
+
+Edit the `src/data/projects.js` file to update your project information.
+
+### Changing Styles
+
+Global styles are in `public/global.css`. Component-specific styles are within each Svelte component.
+
+### Adding New Pages
+
+1. Create a new Svelte component in the `src/components` directory
+2. Import and use it in `App.svelte`
+
+## Deployment
+
+This site can be deployed to any static hosting service:
+
+- Netlify
+- Vercel
+- GitHub Pages
+- AWS S3
+- etc.
+
+## Accessibility Features
+
+- Semantic HTML
+- ARIA attributes
+- Keyboard navigation
+- Focus management
+- Screen reader friendly content
+
+## Performance Optimizations
+
+- Lazy loading images
+- Responsive image loading
+- Minimal dependencies
+- Efficient Svelte reactivity
+
+## License
+
+MIT
+
+## Acknowledgments
+
+- Svelte - https://svelte.dev/
+- Space Mono font - https://fonts.google.com/specimen/Space+Mono
