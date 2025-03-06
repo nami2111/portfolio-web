@@ -14,26 +14,26 @@ A modern, responsive portfolio website built with Svelte to showcase Web3 NFT pr
 
 ## Project Structure
 
-portfolio-web/
-├── public/
-│   ├── images/
-│   │   └── [project images]
-│   ├── favicon.png
-│   ├── global.css
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── AboutSection.svelte
-│   │   ├── ContactSection.svelte
-│   │   ├── HeroSection.svelte
-│   │   ├── ProjectCard.svelte
-│   │   └── ProjectModal.svelte
-│   ├── data/
-│   │   └── projects.js
-│   ├── App.svelte
-│   └── main.js
-├── package.json
-└── rollup.config.js
+portfolio-web
+├─ public
+│ ├─ images
+│ │ └─ [project images]
+│ ├─ favicon.png
+│ ├─ global.css
+│ └─ index.html
+├─ src
+│ ├─ components
+│ │ ├─ AboutSection.svelte
+│ │ ├─ ContactSection.svelte
+│ │ ├─ HeroSection.svelte
+│ │ ├─ ProjectCard.svelte
+│ │ └─ ProjectModal.svelte
+│ ├─ data
+│ │ └─ projects.js
+│ ├─ App.svelte
+│ └─ main.js
+├─ package.json
+└─ rollup.config.js
 
 ## Getting Started
 
